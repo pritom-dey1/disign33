@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+   width: 100%;
+   height: 100%; 
+
+
+}
+.main{
+    width: 100%;
+    height: 98%;
+ 
+
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2vw;
+}
+.nav1{
+    display: flex;
+ 
+}
+.gola1{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.gola2{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.nav2{
+    display: flex;
+  gap: 4vw;
+}
+span{
+    color: rgb(73, 67, 67);
+}
+.nav3{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+
+    display: flex;
+    align-items: center;
+    gap: 6vw;
+padding: 2vw;
+}
+.content{
+    width: 100%;
+    height: calc(100% - 17vh);
+
+}
+.text{
+    width: 100%;
+    height: 35%;
+
+    display: flex;
+    position: relative;
+    overflow-x: scroll;
+}
+.text::-webkit-scrollbar{
+background-color: transparent;
+}
+.text::-webkit-scrollbar-thumb{
+    color: orangered;
+}
+.elem{
+    width: 80%;
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.elem h1{
+    font-size: 6vw;
+}
+.img{
+    width: 100%;
+    position: relative;
+    height: 65%;
+    background-color: rgb(102, 71, 30);
+    display: flex;
+    overflow-x: scroll;
+}
+.img::-webkit-scrollbar{
+    display: none;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.nav i{
+    display: none;
+}
+@media (max-width:600px){
+    .nav{
+        width: 100%;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        padding: 1vw;
+    
+    }
+    .nav1{
+        display: flex;
+     
+    }
+    .gola1{
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        border-radius: 50%;
+    }
+    .gola2{
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        border-radius: 50%;
+    }
+    .nav2{
+        display: none;
+    }
+    span{
+        color: rgb(73, 67, 67);
+    }
+    .nav3{
+        display: flex;
+        width: 100%;
+        height: 5vh;
+    
+        display: flex;
+        align-items: center;
+        gap: 4.8vw;
+    padding: 2vw;
+    }
+    .nav i{
+        display: block;
+        font-size: 9vw;
+    }
+    .img{
+        width: 100%;
+        position: relative;
+        height: 70%;
+        background-color: rgb(102, 71, 30);
+        display: flex;
+        overflow-x: scroll;
+    }
+    .img::-webkit-scrollbar{
+        display: none;
+    }
+    .img img{
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        object-fit: cover;
+    }
+}
